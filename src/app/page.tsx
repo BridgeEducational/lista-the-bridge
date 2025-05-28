@@ -25,9 +25,8 @@ const grupos = [
     estudiantes: [
       "Alejo Di Tata",
       "Arkin Lin",
-      "Ariana Tato",
+      "Ariana Avril Tato",
       "Augusta Perich",
-      "Avril Sallago Gimenez",
       "Clara Fernandez May",
       "Delfina Traverso",
       "Emilia Trombetta",
@@ -52,6 +51,7 @@ const grupos = [
       "Pilar Rios",
       "Renata Tedesco",
       "Santiago Hawes",
+      "Santiago Mendez",
       "Sofia Sallago Gimenez",
       "Valentina Margaria"
     ].sort()
