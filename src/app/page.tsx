@@ -55,7 +55,7 @@ const grupos = [
   },
   {
     id: "grupo3",
-    nombre: "Grupo 3",
+    nombre: "Grupo 3: Martin y Luji",
     estudiantes: [
       "Ariana Avril Tato",
       "Arkin Lin",
@@ -158,7 +158,7 @@ const grupos = [
   },
   {
     id: "vuelo3",
-    nombre: "Vuelo 3",
+    nombre: "Vuelo British Directo",
     estudiantes: [
       "Aebi Tomas Emiliano",
       "Fernandez Poinsteau Macarena",
