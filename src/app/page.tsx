@@ -101,19 +101,12 @@ const grupos = [
       "Kevin Lin",
       "Lautaro Puglelli",
       "Luca Aleaga Arzani",
-      "Lucia Cavallaro",
-      "Macarena Fernandez Pointeau",
-      "Maia Ciatei",
+      "Maia Ciattei",
       "Magdalena Barcas",
-      "Maria Lucia Fernandez Cossa",
       "Maria Trinidad Cervigni",
       "Martin Llado",
-      "Mora Santiago Lena",
       "Paulina Botana",
       "Pedro Ramos",
-      "Pedro Rodriguez",
-      "Rafaela Minoliti",
-      "Renata Tedesco",
       "Santino Barcas",
       "Tomas Fernandez Bosaleh"
     ]
@@ -414,11 +407,11 @@ const grupos = [
       "Santino Barcas",
       "Sofia Sallago Gimenez",
       "Soledad Giunta",
-      "Tiziana Malacisa",
       "Tomas Aebi",
       "Tomas Fernandez Bosaleh",
       "Trinidad Cervigni",
-      "Valentina Margaria"
+      "Valentina Margaria",
+      "Lucia Cavallaro"
     ].sort()
   }
 ];
