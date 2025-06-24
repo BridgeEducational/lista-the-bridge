@@ -411,7 +411,8 @@ const grupos = [
       "Tomas Fernandez Bosaleh",
       "Trinidad Cervigni",
       "Valentina Margaria",
-      "Lucia Cavallaro"
+      "Lucia Cavallaro",
+      "Tiziana Malacisa"
     ].sort()
   }
 ];
