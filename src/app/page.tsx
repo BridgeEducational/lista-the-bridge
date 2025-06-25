@@ -427,6 +427,7 @@ const grupos = [
       "Ariana Tato",
       "Julieta Grimaldi",
       "Clara Fernandez May",
+      "Clara Hombria Beres",
       "Brunella Bulfone Parisi",
       "Emilia Cravero",
       "Ornella Bava",
