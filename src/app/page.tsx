@@ -324,7 +324,7 @@ const grupos = [
       "Santiago Hawes",
       "Soledad Giunta",
       "Tomas Aebi",
-      "Valentina Margaria"
+      "Olivia Hawes"
     ].sort()
   },
   {
