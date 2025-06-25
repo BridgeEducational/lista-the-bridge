@@ -262,8 +262,6 @@ const grupos = [
       "Mora Santiago",
       "Olivia Hawes",
       "Ornella Bava",
-      "Paulina Botana",
-      "Pedro Ramos",
       "Pedro Rodriguez",
       "Pilar Conde",
       "Pilar Rios",
@@ -275,7 +273,12 @@ const grupos = [
       "Tomas Aebi",
       "Tomas Fernandez Bosaleh",
       "Trinidad Cervigni",
-      "Valentina Margaria"
+      "Valentina Margaria",
+      "Santiago Mendez",
+      "Anita Mangiaterra",
+      "Maia Ciattei",
+      "Alejo di Tata",
+      "Leo Chertudi (PADRE)"
     ].sort()
   },
   {
