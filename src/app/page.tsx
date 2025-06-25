@@ -108,7 +108,8 @@ const grupos = [
       "Paulina Botana",
       "Pedro Ramos",
       "Santino Barcas",
-      "Tomas Fernandez Bosaleh"
+      "Tomas Fernandez Bosaleh",
+      "Soledad Giunta"
     ]
   },
   {
