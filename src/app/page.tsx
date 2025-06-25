@@ -221,7 +221,8 @@ const grupos = [
       "Tiziana Malacisa",
       "Tomas Aebi",
       "Tomas Fernandez Bosaleh",
-      "Trinidad Cervigni"
+      "Trinidad Cervigni",
+      "Soledad Giunta"
     ].sort()
   },
   {
