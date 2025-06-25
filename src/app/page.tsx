@@ -419,6 +419,19 @@ const grupos = [
       "Lucia Cavallaro",
       "Tiziana Malacisa"
     ].sort()
+  },
+  {
+    id: "no-lion-king",
+    nombre: "No Lion King",
+    estudiantes: [
+      "Ariana Tato",
+      "Julieta Grimaldi",
+      "Clara Fernandez May",
+      "Brunella Bulfone Parisi",
+      "Emilia Cravero",
+      "Ornella Bava",
+      "Mia Silveyra Rodriguez",
+    ].sort()
   }
 ];
 
