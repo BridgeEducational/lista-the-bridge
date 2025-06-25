@@ -252,7 +252,6 @@ const grupos = [
       "Kevin Lin",
       "Lautaro Puglelli",
       "Luca Aleaga",
-      "Lucia Cavallaro",
       "Macarena Fernandez Pointeau",
       "Maria Lucia Fernandez Cossa",
       "Martina Leguizamon",
