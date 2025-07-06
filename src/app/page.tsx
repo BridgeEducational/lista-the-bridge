@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 // Datos de los grupos y estudiantes
@@ -440,6 +440,23 @@ export default function Home() {
   const [asistencias, setAsistencias] = useState<Record<string, Record<string, boolean>>>({});
   const [grupoSeleccionado, setGrupoSeleccionado] = useState<string | null>(null);
 
+  // Cargar asistencias desde localStorage al montar el componente
+  useEffect(() => {
+    const savedAsistencias = localStorage.getItem('asistencias');
+    if (savedAsistencias) {
+      try {
+        setAsistencias(JSON.parse(savedAsistencias));
+      } catch (error) {
+        console.error('Error al cargar asistencias:', error);
+      }
+    }
+  }, []);
+
+  // Guardar asistencias en localStorage cada vez que cambien
+  useEffect(() => {
+    localStorage.setItem('asistencias', JSON.stringify(asistencias));
+  }, [asistencias]);
+
   const toggleAsistencia = (grupoId: string, estudiante: string) => {
     setAsistencias(prev => ({
       ...prev,
@@ -448,6 +465,11 @@ export default function Home() {
         [estudiante]: !prev[grupoId]?.[estudiante]
       }
     }));
+  };
+
+  const resetAsistencias = () => {
+    setAsistencias({});
+    localStorage.removeItem('asistencias');
   };
 
   const grupoActual = grupos.find(g => g.id === grupoSeleccionado);
@@ -518,6 +540,16 @@ export default function Home() {
             </div>
           </div>
         ) : null}
+
+        {/* Botón de Reset */}
+        <div className="mt-8 text-center">
+          <button
+            onClick={resetAsistencias}
+            className="px-6 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors text-sm"
+          >
+            Resetear todas las asistencias
+          </button>
+        </div>
 
         <footer className="mt-12 text-center text-sm text-gray-500">
           <p>The Bridge Educational 2024</p>
