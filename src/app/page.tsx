@@ -89,7 +89,6 @@ const grupos = [
       "Ana Belen Pereyra",
       "Victoria Bermudez Reigada",
       "Maria Eugenia Acerola",
-      "Faustino Rojas Alonso ",
       "Santiago Botticelli",
       "Samira Fernandez Nieva",
       "Josefina Barletta",
@@ -99,6 +98,20 @@ const grupos = [
     id: "GrupoNOLK",
     nombre: "Grupo No Lion King",
     estudiantes: [
+      "Agustina Garillo",
+      "Isabel Hernandez Borghetti",
+      "Tomas Ciammella",
+      "Lautaro Leandro Oses Dañilu",
+      "Ines Steñac",
+      "Teresa Abril Otarola",
+      "Santino Di Benedetto",
+      "Nahari Sofia Grande",
+      "Lola Goethe Diaz",
+      "Olivia Marques Del Rio",
+      "Juan Bautista Leon Sgroi",
+      "Mateo Muniz Barreto",
+      "Santiago Mateo Flores",
+      "Selene Zilber",
     ].sort()
   }
 
