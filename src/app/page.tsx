@@ -61,9 +61,38 @@ const grupos = [
     ].sort()
   },
   {
+    id: "grupoNOHP",
+    nombre: "Grupo No Harry Potter",
+    estudiantes: [
+      "Teresa Abril Otarola",
+      "Lola Goethe Diaz",
+      "Santiago Botticelli",
+      "Juan Bautista Leon Sgroi",
+      "Mateo Muniz Barreto",
+      "Facundo Arrambide",
+      "Maria Eugenia Acerola",
+      "Agustina Garillo",
+      "Isabel Hernandez Borghetti",
+      "Tomas Ciammella",
+      "Lautaro Leandro Oses Dañilu",
+      "Selene Zilber",
+    ].sort()
+  },
+  {
     id: "GrupoLK",
     nombre: "Grupo Lion King",
     estudiantes: [
+      "Angela Amiano",
+      "Judith Toniolo Comini",
+      "Helena Baccon Montes",
+      "Faustino Rojas Alonso ",
+      "Ana Belen Pereyra",
+      "Victoria Bermudez Reigada",
+      "Maria Eugenia Acerola",
+      "Faustino Rojas Alonso ",
+      "Santiago Botticelli",
+      "Samira Fernandez Nieva",
+      "Josefina Barletta",
     ].sort()
   }, 
   {
